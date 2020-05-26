@@ -1,0 +1,16 @@
+{
+    "name": "UnityEditor.GameTune",
+    "references": [
+        "GUID:fd2cc1757461145b0b6d4a6ca4650c82"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

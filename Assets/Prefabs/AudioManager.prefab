@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4997832823091784905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4997832823091784911}
+  - component: {fileID: 4997832823091784904}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4997832823091784911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4997832823091784905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 966.60004, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4997832823091784904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4997832823091784905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6aa6062acdfb8b4085c5e4938161e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: d0814309ad32baa41a5c3f47a5488835, type: 3}
+    name: dead
+    volume: 0.552
+    pitch: 1.2
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 1b25649d8806d6c42b48ca85a419f036, type: 3}
+    name: coin
+    volume: 0.552
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: fb7a2856616cb6946a6895d4c2a5740a, type: 3}
+    name: gems
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 9a2ded247027c6c4faddb436330504b6, type: 3}
+    name: theme
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: f6a3ddcf7bf3d4b46b08276fac73dc59, type: 3}
+    name: inGame
+    volume: 0.5
+    pitch: 1.05
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: ba55c492d5c019245bb52987e75fa389, type: 3}
+    name: jump
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 6012d736094720f47ad518e0fe7ee696, type: 3}
+    name: button
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
